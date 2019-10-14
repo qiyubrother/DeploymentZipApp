@@ -47,7 +47,6 @@ object Form1: TForm1
     Height = 21
     Anchors = [akLeft, akTop, akRight]
     TabOrder = 1
-    ExplicitWidth = 550
   end
   object ComboBoxFileName: TComboBox
     Left = 8
@@ -58,7 +57,6 @@ object Form1: TForm1
     Anchors = [akLeft, akTop, akRight]
     DropDownCount = 20
     TabOrder = 2
-    ExplicitWidth = 619
   end
   object btnC: TButton
     Left = 65
@@ -96,5 +94,14 @@ object Form1: TForm1
     Caption = 'Open '
     TabOrder = 6
     OnClick = btnOpenClick
+  end
+  object btnShortLink: TButton
+    Left = 170
+    Top = 110
+    Width = 167
+    Height = 25
+    Caption = 'Create Short Link To Desktop'
+    TabOrder = 7
+    OnClick = btnShortLinkClick
   end
 end
